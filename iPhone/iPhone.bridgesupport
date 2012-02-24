@@ -4,7 +4,9 @@
   <struct name='CGPoint' type='{CGPoint=&quot;x&quot;f&quot;y&quot;f}' type64='{CGPoint=&quot;x&quot;d&quot;y&quot;d}'/>
   <struct name='CGRect' type='{CGRect=&quot;origin&quot;{CGPoint=&quot;x&quot;f&quot;y&quot;f}&quot;size&quot;{CGSize=&quot;width&quot;f&quot;height&quot;f}}' type64='{CGRect=&quot;origin&quot;{CGPoint=&quot;x&quot;d&quot;y&quot;d}&quot;size&quot;{CGSize=&quot;width&quot;d&quot;height&quot;d}}'/>
   <struct name='CGSize' type='{CGSize=&quot;width&quot;f&quot;height&quot;f}' type64='{CGSize=&quot;width&quot;d&quot;height&quot;d}'/>
-
+  <struct name='CGAffineTransform' type='{CGAffineTransform=&quot;a&quot;f&quot;b&quot;f&quot;c&quot;f&quot;d&quot;f&quot;tx&quot;f&quot;ty&quot;f}'
+  type64='{CGAffineTransform=&quot;a&quot;d&quot;b&quot;d&quot;c&quot;d&quot;d&quot;d&quot;tx&quot;d&quot;ty&quot;d}' />
+  
   <function name='UIGraphicsGetCurrentContext'>
     <retval type='^' />
   </function>
